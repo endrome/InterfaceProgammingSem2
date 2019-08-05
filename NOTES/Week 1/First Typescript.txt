@@ -1,0 +1,32 @@
+First we started by downloading the following, 
+
+- Visual Studio Code 
+
+https://code.visualstudio.com/ (Links to an external site.)
+
+- Git
+
+https://git-scm.com/ (Links to an external site.)
+
+- NodeJS
+
+https://nodejs.org/en/download/ (Links to an external site.)
+
+(For NodeJS select Windows Binary 64-bit)
+
+1. After that we downloaded Visual Studio Code and Git. However, for Git, throughout the installation it is important that you alter the default editor from Vim to Notepad++
+2. Following this process, you must create a folder for your first Typescript, I named mine 'MyFirstTypescript'.  Then from there hold SHIFT and RIGHT CLICK the empty folder space and then select 'Open Powershell Window here'.
+3. Once Powershell is open, type 'npm -v' exactly as it is without the quotations. It should come up with an error, this is normal.
+4. From there go to Windows search and lookup "Edit Environmental Variables for your account" and now copy the complete location of your folder from earlier and go back to the Environment Variables, add a new line and paste that link. The link should look similar to this "C:\Users\102571223\Desktop\MyFirstTypescript".
+5. Then do the same thing as earlier and hold SHIFT and RIGHT CLICK on the empty folder and click 'Open Powershell Window here'.
+6. Now you can type 'npm -v' to check the version. 
+7. You can also type 'npm -h' to get help.
+8. You must then type 'npm init' for a work environment.
+9. You can type 'code .' to open this in Visual Studio Code if you have it installed (which you should).
+10. From there you must create a file called 'index.js'.
+11. You can then type your code and run it.
+12. Then you must change your .js to a .ts by simply renaming it.
+13. Then proceed to run it, which should give you an error.
+14. After that error, go to the terminal and type 'tsc index.ts'. This should create a separate .js file with the same code and should enable you to run the .ts.
+    Finish
+ 
