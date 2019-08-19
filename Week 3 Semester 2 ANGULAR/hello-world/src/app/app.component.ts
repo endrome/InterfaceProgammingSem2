@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'hello-world';
   name = 'G E V I N';
+
+// onKeyUp(input: string) {
+//   this.startName = input;
+// }
+
 }

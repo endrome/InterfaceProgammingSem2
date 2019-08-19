@@ -1,0 +1,21 @@
+export class ClickerComponent implements OnInit{
+	count: number = 0;
+	constructor() {}
+	ngOnInit() {
+
+	}
+
+	onAddButtonClick() {
+		this.count++;
+		or this.count = this.count + 1;
+		or this.count += 1;
+	}	
+}
+
+
+<h1> Count: {{count}} </h1>
+
+<button (click)="onAddButtonClick"Click Me<button>
+
+onMinusButtonClick() {
+}
