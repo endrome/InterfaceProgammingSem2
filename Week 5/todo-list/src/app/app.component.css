@@ -1,0 +1,27 @@
+
+td {
+    background: lightpink;
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    background: plum;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background: lightpink;
+    color: white;
+}
+
